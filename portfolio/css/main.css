@@ -1,0 +1,107 @@
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+/* About section */
+main {
+    padding-top:50px;
+    text-align:center;
+    width:100%;
+}
+
+#about {
+    background-image: url("../images/spotlight/spotlight-2.png") ;  
+    background-size: cover;
+    color:white;
+    
+}
+
+.about-text {
+    line-height: 1.25;
+}
+.wrapper {
+    max-width: 680px;
+    margin:0 auto;
+    height: 100%;
+    line-height: 100%;
+    position:relative;
+    top:25%;
+    vertical-align: middle;
+
+}
+
+.div-image {
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.img-self-style{
+    
+    height: 150px;
+}
+
+h1 {
+    color:white;
+    font-family: 'Pacifico', cursive;
+    font-size:40px;
+    letter-spacing:0.05cm;
+    
+}
+
+
+/* Navs */
+#mainNav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+#centerNav{
+    position:absolute;
+    left:20%;
+    vertical-align: middle;
+
+}
+#centerNav li a{
+    vertical-align: middle;
+    line-height: 52px;
+    margin-right:5px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    color:white;
+    letter-spacing:0.10cm;
+    border: 2px solid #286892;
+    border-radius:5px;
+
+}
+
+#centerNav li a:hover {
+    background-color:#286892;;
+    color:black;
+
+}
+
+#rightNav {
+    float:right;
+    margin-right:30px;
+}
+
+section {
+    height:100vh;
+
+}
+
+
+/* Social Icons */
+.fa {
+    color:#286892;
+}
+
+.fa:hover {
+    color:white;
+}
