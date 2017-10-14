@@ -1,0 +1,17 @@
+h1 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.quotes {
+  margin: 25px 0px 0px 0px;
+}
+
+.jumbotron {
+  background-color: darkgrey;
+  margin-top: 0px;
+}
