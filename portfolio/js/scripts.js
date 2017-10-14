@@ -5,7 +5,7 @@ var on = true;
     $(".language-toggle").on("click", function () {
         if (on) {
             $(".language-dropdown").css("display", "block");
-            $(".language-dropdown").animate({width: '320px', opacity: '100%'}, "fast");
+            $(".language-dropdown").animate({width: '350px', opacity: '100%'}, "fast");
      
         
 
@@ -33,8 +33,6 @@ $("#centerNav a").on("click", function() {
     //Scroll
 $(document).on("scroll", function() {
     var posY = (window.pageYOffset);
-    console.log (posY);
-    console.log ($("#portfolio").offset().top);
     var active = "#aAbout";
     if (posY > $("#skills").offset().top-100) {
         active = "#aSkills"
