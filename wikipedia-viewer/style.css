@@ -1,0 +1,72 @@
+.container {
+font-family: Monospace;
+min-height:100vh;
+width:100%;
+background-color:lightgrey; 
+}
+h2 {
+padding: 10% 0% 0% 0%;
+}
+h4 {
+  padding: 0% 0% 0% 0%;
+}
+#form {
+    margin: auto;
+    width: 50%;
+    padding: 0% 0% 1% 0%;
+}
+#content {
+  font-family: Monospace;
+    margin: auto;
+    width: 50%;
+    padding: 0% 0% 1% 0%;
+}
+#wiki {
+  font-family: Monospace; 
+  
+  padding: 0% 0% 15% 0%;
+  text-align: center;
+}
+#caixa0 {
+  background-color:white;
+  padding: 2% 2% 2% 2%;
+}
+#caixa1 {
+  background-color:white;
+  padding: 2% 2% 2% 2%;
+}
+#caixa2 {
+  background-color:white;
+  padding: 2% 2% 2% 2%;
+}
+#caixa3 {
+  background-color:white;
+  padding: 2% 2% 2% 2%;
+}
+#caixa4 {
+  background-color:white;
+  padding: 2% 2% 2% 2%;
+}
+#caixa5 {
+  background-color:white;
+  padding: 2% 2% 2% 2%;
+}
+#caixa6 {
+  background-color:white;
+  padding: 2% 2% 2% 2%;
+}
+#caixa7 {
+  background-color:white;
+  padding: 2% 2% 2% 2%;
+}
+#caixa8 {
+  background-color:white;
+  padding: 2% 2% 2% 2%;
+}
+#caixa9 {
+  background-color:white;
+  padding: 2% 2% 2% 2%;
+}
+.fa-times {
+  padding: 0% 0% 0% 1%
+}
