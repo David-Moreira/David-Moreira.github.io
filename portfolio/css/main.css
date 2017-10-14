@@ -13,15 +13,8 @@
     body .title {
         font-size:30px;
     }
-}
-    
 
-@media screen and (max-width : 450px) {
-    #rightMobileNav {
-        display: none !important;
-    }
-
-    
+        
     #about, #skills, #portfolio {
         overflow:scroll;
     }
@@ -30,6 +23,15 @@
         
 
     }
+}
+    
+
+@media screen and (max-width : 450px) {
+    #rightMobileNav {
+        display: none !important;
+    }
+
+
 }
 
 @media screen and (min-width: 991px) {
@@ -112,7 +114,7 @@ footer {
     bottom:0;
     height: 25vh;
     color:white;
-    width: 100%;
+    min-width: 100%;
 
 }
 
@@ -125,10 +127,11 @@ footer {
     padding:10px;
     letter-spacing:0.05cm;
     position:absolute;
-    width: 100%;
+    min-width: 100%;
     margin:0 auto;
     text-align: center;
     bottom:0;
+    left:0;
 }
 #copyright {
 bottom:0;
@@ -140,10 +143,66 @@ bottom:0;
 
 /* Portfolio section */
 
+.wrapper a {
+    text-decoration:none;
+    
+}
+.wrapper .portfolio-item:hover {
+   
+opacity:0.8;
+border: 1px solid red;
+text-decoration:none;
+
+
+}
+.portfolio-item {
+    border: 1px solid #DDD;
+    border-radius: .5em;
+    padding: .5em;
+    background-color:#222;
+    opacity: 1;
+cursor:pointer;
+margin-top:25px;
+margin-bottom:5px;
+}
+
+.portfolio-item p {
+
+    color:white;
+    text-align: justify;
+}
+
+.portfolio-item .portfolio-title{
+    font-size:22px;
+    font-weight: bold;
+    color:beige;
+    opacity: 1;
+    
+    }
+
+.portofolio-image {
+    max-width: 100px;
+    width: 100%;
+
+}
+
+
 #portfolio {
     background-image: url("../images/background-4.jpg") ;  
     background-size: cover;
     border-bottom:3px solid black;
+    
+}
+
+
+/*override*/
+#portfolio .title {
+    text-align:center;
+}
+#portfolio .wrapper {
+margin:0px;
+text-align: left;
+max-width: 100%;
 }
 
 
