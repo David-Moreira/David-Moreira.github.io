@@ -159,7 +159,9 @@ main {
     background-size: cover;
     color:white;
     border-bottom:3px solid black;
-    overflow: visible;
+
+
+   
     
 }
 
@@ -179,6 +181,7 @@ padding:5px;
     position:relative;
     top:25%;
     height: 100%;
+
 
 
 }
@@ -378,7 +381,7 @@ nav .fa {
     color:#66fcf1;
 }
 
-nav .fa:hover {
+#rightNav .fa:hover {
     color:white;
 }
 
