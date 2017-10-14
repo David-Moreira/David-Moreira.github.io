@@ -2,7 +2,7 @@
 var apiKey = "d2090753718eb350da283fff5bec2a02";
 $(document).ready(function() {
   //ipinfo API gets current location over HTTP -- Geolocation from navigator only available over HTTPS protocol
-  $.getJSON('http://ipinfo.io/geo', function(data) {
+  $.getJSON('https://ipinfo.io/geo', function(data) {
     //Instead of using the city property, I'll be using coords for improved accuracy with OpenWeatherAPI
     var location = data.loc;
     var locationArr = location.split(",");
