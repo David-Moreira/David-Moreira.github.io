@@ -159,7 +159,7 @@ main {
     background-size: cover;
     color:white;
     border-bottom:3px solid black;
-
+min-height: 100vh;
 
    
     
@@ -180,7 +180,7 @@ padding:5px;
     margin:0 auto;
     position:relative;
     top:25%;
-    height: 100%;
+
 
 
 
