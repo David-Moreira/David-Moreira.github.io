@@ -1,0 +1,94 @@
+body {
+  font-family: Monospace;
+  text-align: center;
+}
+
+h1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.container-fluid {
+  color: white;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/c3/18/10/c3181087ed26f2e6a9e3446bf55a4812.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:100vw;
+  height:100vh;
+}
+
+p {
+  text-align: center;
+}
+
+#info{
+  position:absolute;
+  text-align:center ; 
+  bottom:0;
+  left:0;
+  right:0;
+}
+#icon {
+  height: 40px;
+  font-size: 20px;
+}
+
+#temp {
+  font-size: 20px;
+}
+
+#degree {
+  font-size: 20px;
+}
+
+#tempSwitch {
+  font-size: 20px;
+  vertical-align: text-bottom;
+}
+
+#city {
+  height: 40px;
+  font-size: 20px;
+}
+
+#Main {
+  height: 250px;
+}
+
+.thunderstorm {
+  background-image: url("https://66.media.tumblr.com/tumblr_lqfpoy2Y1j1qze0z6o1_1280.jpg")!important;
+}
+
+.rain {
+  background-image: url("https://www.ehowzit.co.za/wp-content/uploads/2016/07/rainy-weather.jpg")!important;
+}
+
+.snow {
+  background-image: url("http://www.london-weather.eu/upload/images/SnowCannonHill2010-1218/SnowCannonHill2010-900x675-03.jpg")!important;
+}
+
+.clear {
+  background-image: url("https://blakewd.files.wordpress.com/2015/02/sunny-day-wallpaper.jpg")!important;
+}
+
+.clouds {
+  background-image: url("https://report.az/storage/news/b6561e5fd06e28947a3fbb2c8e6a221e/731c8a5a-fe4e-449d-bcef-337dcdb7791e.jpg")!important;
+}
+
+
+/* 
+MIST:
+https://s-media-cache-ak0.pinimg.com/originals/79/82/87/7982874a91f1ea840cd02fda3d68138d.jpg
+SNOW:
+http://www.london-weather.eu/upload/images/SnowCannonHill2010-1218/SnowCannonHill2010-900x675-03.jpg
+THUNDER:
+https://66.media.tumblr.com/tumblr_lqfpoy2Y1j1qze0z6o1_1280.jpg
+RAINY:
+https://www.ehowzit.co.za/wp-content/uploads/2016/07/rainy-weather.jpg
+CLEAR SKY:
+https://blakewd.files.wordpress.com/2015/02/sunny-day-wallpaper.jpg
+CLOUDY: 
+https://report.az/storage/news/b6561e5fd06e28947a3fbb2c8e6a221e/731c8a5a-fe4e-449d-bcef-337dcdb7791e.jpg
+STANDARD:
+https://s-media-cache-ak0.pinimg.com/originals/c3/18/10/c3181087ed26f2e6a9e3446bf55a4812.jpg
+ */

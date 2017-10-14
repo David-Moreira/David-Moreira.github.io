@@ -1,0 +1,49 @@
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Local Weather</title>
+        <!--jQuery-->
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <!--Bootstrap-->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!-- Weather Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" />
+
+
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+  </head>
+
+
+<body>
+<div id="container" class="container-fluid">
+
+  <h1 class="text-center"> Local Weather  </h1>
+  <p id="icon"> </p>
+
+  <span id="temp"> </span><span id="degree">°C</span>
+
+  <p> <button id="tempSwitch" class="btn btn-sm btn-primary">Fahrenheit</button></p>
+  <br>
+  <p id="city"> </p>
+
+
+  <div id="Main">
+
+  </div>
+
+  <div id="TESTE">
+  </div>
+<p id="info" class="bg-primary text-center" style="background-color:black">The Weather API suggested on the FreeCodeCamp challenge which is being used on this pen is only available over HTTP. Please run this pen over the <a href="https://codepen.io/David-Moreira/full/LbZWZd/" target="_blank"> HTTP</a> protocol.
+</p>
+</div>
+
+</body>
+</html>
