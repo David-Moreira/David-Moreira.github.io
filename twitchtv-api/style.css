@@ -1,0 +1,43 @@
+.container {
+  text-align:center;
+}
+
+.jumbotron {
+  background-color: dimgray;
+}
+
+.title {
+  background-color:darkcyan;
+  margin: 0px 25% 0px 25%;
+  text-align:center;
+  border-style: solid;
+  border-color:#663300;
+  border-width: 2px;
+}
+.main {
+  
+  background-color:#b3cccc;
+  margin: 0px 25% 0px 25%;
+  text-align:left;
+  border-style: solid;
+  border-color:#663300;
+  border-width: 2px;
+
+  padding: 0px 0px 10x 10px;
+  font-family: Consolas;
+  padding-left: 10px;
+  
+  
+}
+h1 {
+  font-family:Consolas;
+  color: white;
+  font-size: 40px;
+  padding: 0px 0px 0px 10px;
+}
+h2 {
+    font-family:Consolas;
+  color: white;
+  font-size: 20px;
+  padding: 10px 0px 0px 0px;
+}
