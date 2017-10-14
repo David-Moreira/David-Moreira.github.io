@@ -8,7 +8,7 @@ $(document).ready(function() {
     var locationArr = location.split(",");
     var lat = locationArr[0];
     var lon = locationArr[1];
-    $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + apiKey, function(data) {
+    $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + apiKey, function(data) {
       var temp = data.main.temp;
       var city = data.name;
       var country = data.sys.country;
@@ -16,7 +16,7 @@ $(document).ready(function() {
       var wIcon = data.weather[0].icon;
       var celsiusTemp = temp - 273.15;
       var fahrenheitTemp = (temp - 273.15) * 1.8000 + 32.00;
-      $("#icon").html(wIconText + '<img src="http://openweathermap.org/img/w/' + wIcon + '.png"alt="icon"> </img>');
+      $("#icon").html(wIconText + '<img src="https://openweathermap.org/img/w/' + wIcon + '.png"alt="icon"> </img>');
       $("#temp").html(celsiusTemp);
       $("#city").html(city + ", " + country);
       if (wIconText == "Thunderstorm" || wIconText == "Extreme") {
