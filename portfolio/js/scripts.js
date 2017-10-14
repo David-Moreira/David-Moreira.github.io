@@ -25,12 +25,12 @@ var on = true;
     });
 
     //Make active navbar buttons on Click
-$(".nav a").on("click", function() {
-    $(".nav a").removeClass("active");
+$("#centerNav a").on("click", function() {
+    $("#centerNav a").removeClass("active");
     $(this).addClass("active");
 });
 
-//Scroll
+    //Scroll
 $(document).on("scroll", function() {
     var posY = (window.pageYOffset);
     console.log (posY);

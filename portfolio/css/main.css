@@ -320,8 +320,6 @@ color:white;
 }
 
 
-
-
 .leftNav button, .leftNav button {
     
     background-color:#222;
@@ -385,14 +383,11 @@ border-radius:10px;
     background-color:#66fcf1;;
     color:black !important;
 }
+
 #rightNav , #rightMobileNav {
     float:right;
     margin-right:30px;
 }
-
-
-
-
 
 /* Social Icons */
 nav .fa {
