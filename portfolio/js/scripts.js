@@ -5,7 +5,7 @@ var on = true;
     $(".language-toggle").on("click", function () {
         if (on) {
             $(".language-dropdown").css("display", "block");
-            $(".language-dropdown").animate({width: '270px', opacity: '100%'}, "fast");
+            $(".language-dropdown").animate({width: '320px', opacity: '100%'}, "fast");
      
         
 
