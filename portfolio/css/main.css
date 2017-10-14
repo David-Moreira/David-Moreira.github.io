@@ -52,6 +52,11 @@ body{
     font-size: 18px;
     min-width:320px;
 }
+.container-fluid {
+    padding:0px;
+    margin:0px;
+}
+
 h1 , .title{
     color:white;
     font-family: 'Pacifico', cursive;
@@ -154,6 +159,7 @@ main {
     background-size: cover;
     color:white;
     border-bottom:3px solid black;
+    overflow: visible;
     
 }
 
