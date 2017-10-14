@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    console.log("documentReady");
+
 var on = true;
     $(".language-toggle").on("click", function () {
         if (on) {
@@ -22,11 +22,28 @@ var on = true;
             
             on=true;
         }
-    
-        
-       
-
-
     });
+
+    //Make active navbar buttons on Click
+$(".nav a").on("click", function() {
+    $(".nav a").removeClass("active");
+    $(this).addClass("active");
+});
+
+//Scroll
+$(document).on("scroll", function() {
+    var posY = (window.pageYOffset);
+    console.log (posY);
+    console.log ($("#portfolio").offset().top);
+    var active = "#aAbout";
+    if (posY > $("#skills").offset().top-100) {
+        active = "#aSkills"
+    }
+    if (posY > $("#portfolio").offset().top-100 ) {
+        active = "#aPortfolio";
+    }
+    $(".nav a").removeClass("active");
+    $(active).addClass("active");
+});
 
 });

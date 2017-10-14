@@ -173,7 +173,7 @@ main {
     background-size: cover;
     color:white;
     border-bottom:3px solid black;
-min-height: 100%;
+    min-height: 100%;
 
    
     
@@ -381,6 +381,10 @@ border-radius:10px;
 
 }
 
+.active {
+    background-color:#66fcf1;;
+    color:black !important;
+}
 #rightNav , #rightMobileNav {
     float:right;
     margin-right:30px;
