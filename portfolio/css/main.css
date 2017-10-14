@@ -9,12 +9,26 @@
         margin:0px;
         
     }
+
+    body .title {
+        font-size:30px;
+    }
 }
     
 
 @media screen and (max-width : 450px) {
     #rightMobileNav {
         display: none !important;
+    }
+
+    
+    #about, #skills, #portfolio {
+        overflow:scroll;
+    }
+    ::-webkit-scrollbar { 
+            display: none; 
+        
+
     }
 }
 
@@ -80,7 +94,7 @@ hr {
     max-width: 680px;
     margin:0 auto;
     position:relative;
-    height: 100%;
+    min-height: 100%;
 }
 
 /* SVG */ 
@@ -138,7 +152,7 @@ bottom:0;
 }
 
 #skills {
-    background-image: url("../images/background-3.jpg") ;  
+    background-image: url("../images/background-10.jpg") ;  
     background-size: cover;
     border-bottom:3px solid black;
 }
@@ -159,7 +173,7 @@ main {
     background-size: cover;
     color:white;
     border-bottom:3px solid black;
-min-height: 100vh;
+min-height: 100%;
 
    
     
@@ -179,7 +193,7 @@ padding:5px;
     max-width: 680px;
     margin:0 auto;
     position:relative;
-    top:25%;
+    padding-top:15%;
 
 
 
