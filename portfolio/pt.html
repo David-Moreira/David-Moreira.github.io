@@ -29,6 +29,7 @@
 <body>
 
         <header>
+            <!-- Desktop Nav -->
                 <nav id="mainNav" class="nav navbar-fixed-top navbar-inverse ">
                     <ul id="leftNav" class="nav navbar-nav">
                         <li> <a href="#">PT</a></li>
@@ -49,7 +50,36 @@
                     </ul>
     
                 </nav>
-    
+
+                <!-- Mobile | Collapsible Nav -->
+                <nav id="mobileNav" class="nav navbar-fixed-top navbar-inverse ">
+                    <button id="btnMobileCollapse" class=" collapsed" data-toggle="collapse" data-target="#mobileNavBar" >
+                        <span  class="lines">
+                            <span></span>   
+                            <span></span>
+                            <span></span> 
+                        </span>
+                    </button>    
+                    
+                        <ul  id="mobileNavBar" class="nav collapse ">
+                            <li><a href="#about"> SOBRE MIM </a></li>
+                            <li><a href="#skills"> COMPETÊNCIAS </a></li>
+                            <li><a href="#portfolio"> PORTFOLIO </a></li>
+
+                            <li> <a href="#">PT</a></li>
+                            <li><a href="#">|</a></li>
+                            <li><a href="#">EN</a></li>
+                           
+                        </ul>
+                        <
+                        <ul  id="rightMobileNav" class="nav navbar-nav">
+                            <li><a href="http://www.linkedin.com/in/david-moreira" target="_blank" > <i class="fa fa-linkedin-square fa-2x"></i> </a></li>
+                            <li><a href="https://github.com/David-Moreira" target="_blank"> <i class="fa fa-github-square fa-2x"></i> </a></li>
+                            <li><a href="https://www.freecodecamp.org/david-moreira" target="_blank"> <i class="fa fa-free-code-camp fa-2x"></i> </a></li>
+                            <li><a href="mailto:david_nogueira_moreira@hotmail.com"> <i class="fa fa-envelope-square fa-2x"></i> </a></li>
+                        </ul>
+                    
+                    </nav>
     
             </header>
 
@@ -153,7 +183,7 @@
             <div id="copyright">
 
             
-              <span> © 2017 David Moreira</span>  
+              <span id="footer-txt"> © 2017 David Moreira</span>  
             </div>
         </footer>
     </div>
