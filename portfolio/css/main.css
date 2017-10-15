@@ -194,6 +194,28 @@ margin-bottom:5px;
     
 }
 
+/* Portfolio Page preview */
+#screenshot {
+    border: 2px solid black;
+}
+
+/* Not using -- Iframe page preview in real time when hovering links
+.portfolio-item-page{
+  display:none;
+    width: 100%;
+}
+
+.portfolio-item-page iframe{
+    min-width: 320px;
+    min-height: 320px;
+height: 500px;
+}
+#portfolio a:hover + .portfolio-item-page,.portfolio-item-page:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+ */
 
 /*override*/
 #portfolio .title {
