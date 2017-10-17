@@ -14,8 +14,8 @@ $(document).ready(function() {
       var country = data.sys.country;
       var wIconText = data.weather[0].main;
       var wIcon = data.weather[0].icon;
-      var celsiusTemp = temp - 273.15;
-      var fahrenheitTemp = (temp - 273.15) * 1.8000 + 32.00;
+      var celsiusTemp = Math.round(temp - 273.15);
+      var fahrenheitTemp = celsiusTemp * 1.8000 + 32.00;
       $("#icon").html(wIconText + '<img src="https://openweathermap.org/img/w/' + wIcon + '.png"alt="icon"> </img>');
       $("#temp").html(celsiusTemp);
       $("#city").html(city + ", " + country);
