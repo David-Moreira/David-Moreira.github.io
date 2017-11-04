@@ -504,7 +504,7 @@ nav .fa {
 
 .overlay {
 background-color: rgba(31, 31, 31, 0.7);
-
+height:100%;
 }
 
 .color-highlight {
