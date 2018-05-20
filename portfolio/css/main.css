@@ -147,7 +147,7 @@ svg[viewBox] {
 /* Footer section */
 
 footer {
-    background-image: url("../images/digital.jpg") ;  
+    background-image: url("../images/backgrounds/digital.jpg") ;  
     background-attachment: fixed;
     background-size: cover;
     height: 25vh;
@@ -304,7 +304,7 @@ main {
     margin:0px;
 }
 #about {
-    background-image: url("../images/background-5.jpg") ;  
+    background-image: url("../images/backgrounds/background-5.jpg") ;  
     background-size: cover;
     color:white;
     font-weight: normal;
