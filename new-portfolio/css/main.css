@@ -1,0 +1,95 @@
+/* About Me Section */
+ .img-self-style
+ {
+     background-color:#F05F40;
+     border-color:#F05F40;
+     margin:20px 0px 0px 0px;
+ }
+
+ header .header-content .header-content-inner p.about-me-description
+ {
+    font-weight:600;
+ }
+
+ .text-done{
+    text-decoration: line-through;
+ }
+/* END -- About Me Section */
+
+/* Language dropdown */
+.language-toggle 
+{
+    float:left;
+    margin-left:10px;
+    display:block;
+}
+.language-dropdown {
+    min-width: 0px;
+    display:none;
+    z-index:1;
+overflow-y: auto;
+position: fixed;
+top: 0;
+left: 0;
+bottom:0;
+box-sizing: border-box;
+width: 0px;
+padding: 165px 50px 40px 29px;
+border-right: 1px solid #F05F40;
+background-color: rgba(0,0,0,0.9);
+text-align: left;
+font-family: 'Rye', cursive;
+font-size:20px;
+letter-spacing: 0.05cm;
+font-weight:bold;
+color:white;
+line-height: 0.75cm;
+}
+
+.language-container{
+    min-width: 270px;
+    color:rgba(255,255,255,.7);
+}
+.language-dropdown p {
+    margin-bottom:50px;
+}
+.language-dropdownlist, .language-dropdownlist li {
+    padding:0px;
+    margin-left:0px;
+    margin-bottom: 10px;
+    text-decoration:none;
+    display:block;
+    cursor:pointer;
+}
+.language-inactive a {
+    text-decoration:none;
+    color:rgba(255,255,255,.7);
+}
+.language-inactive:hover a {
+color:#F05F40;
+}
+.language-dropdownlist .language-active {
+    text-decoration: none;
+    color: #F05F40;
+    cursor: context-menu;
+}
+/* END -- Language dropdown */
+
+/* Medias */
+@media screen and (min-width : 768px) {
+    .language-toggle 
+    {
+        margin-left:0px !important;
+        color:rgba(255,255,255,.7) !important;
+        border:none;
+        margin-top:0px;
+    }
+    .language-toggle:hover, .language-toggle:focus
+    {
+        background:none!important;
+        color:white !important;
+    }
+    
+}  
+
+/* END --Medias */
