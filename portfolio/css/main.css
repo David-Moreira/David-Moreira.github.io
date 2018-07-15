@@ -3,6 +3,8 @@ figure .mfp-img
     max-height: 650px !important;
 }
 
+
+
 .icon {
     display: inline-block;
     width: 1em;
@@ -18,6 +20,9 @@ figure .mfp-img
 }
 
 /* Skill Bar */
+.skillbar span{
+    cursor:default;
+}
 
 .skillbar {
 	position:relative;
