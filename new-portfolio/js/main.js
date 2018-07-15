@@ -2,15 +2,18 @@ this.addEventListener("DOMContentLoaded", function () {
     // currentDate = new Date();
     // document.getElementById("currentYear").textContent = currentDate.getFullYear();
     screenshotPreview();
+});
 
-    jQuery(document).ready(function(){
-        jQuery('.skillbar').each(function(){
-            jQuery(this).find('.skillbar-bar').animate({
-                width:jQuery(this).attr('data-percent')
+this.addEventListener("scroll", function () {
+
+    if ($("#skills").visible())
+    {
+        $('.skillbar').each(function(){
+            $(this).find('.skillbar-bar').animate({
+                width:$(this).attr('data-percent')
             },6000);
         });
-    });
-
+    }
 });
 
 //Language Toggle
