@@ -3,12 +3,19 @@ this.addEventListener("DOMContentLoaded", function () {
     // document.getElementById("currentYear").textContent = currentDate.getFullYear();
     screenshotPreview();
 
+    jQuery(document).ready(function(){
+        jQuery('.skillbar').each(function(){
+            jQuery(this).find('.skillbar-bar').animate({
+                width:jQuery(this).attr('data-percent')
+            },6000);
+        });
+    });
+
 });
 
 //Language Toggle
 let on = true;
 let langToggle = document.querySelector(".language-toggle");
-
 langToggle.addEventListener("click", () =>
 {
     let langDropDown = document.querySelector(".language-dropdown");
