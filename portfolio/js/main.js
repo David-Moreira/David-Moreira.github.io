@@ -4,7 +4,7 @@ this.addEventListener("DOMContentLoaded", function () {
     screenshotPreview();
 
     //Don't show title tooltip on hover but put it back.
-    $("a").hover(
+    $(".popup-gallery a").hover(
         function() {
             var title = $(this).attr("title");
             $(this).attr("tmp_title", title);

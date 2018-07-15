@@ -3,6 +3,19 @@ figure .mfp-img
     max-height: 650px !important;
 }
 
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: #F05F40;
+    fill: #F05F40;
+  }
+  
+.contact-nav-icons li a
+{
+    max-height: 59px;
+}
 
 /* Skill Bar */
 
