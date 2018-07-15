@@ -15,8 +15,12 @@ this.addEventListener("DOMContentLoaded", function () {
         });
 });
 
-this.addEventListener("scroll", function () {
 
+this.addEventListener("scroll", progressBarAnimate);
+
+//Progress bar animations upon visible
+function progressBarAnimate ()
+{
     if ($("#skills").visible())
     {
         $('.skillbar').each(function(){
@@ -24,8 +28,9 @@ this.addEventListener("scroll", function () {
                 width:$(this).attr('data-percent')
             },6000);
         });
+        this.removeEventListener("scroll", progressBarAnimate);
     }
-});
+}
 
 //Language Toggle
 let on = true;
