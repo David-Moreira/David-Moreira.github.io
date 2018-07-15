@@ -148,7 +148,6 @@ svg[viewBox] {
 
 footer {
     background-image: url("../images/backgrounds/digital.jpg") ;  
-    background-attachment: fixed;
     background-size: cover;
     height: 25vh;
     color:white;
