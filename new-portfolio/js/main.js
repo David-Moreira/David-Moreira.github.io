@@ -2,6 +2,17 @@ this.addEventListener("DOMContentLoaded", function () {
     // currentDate = new Date();
     // document.getElementById("currentYear").textContent = currentDate.getFullYear();
     screenshotPreview();
+
+    //Don't show title tooltip on hover but put it back.
+    $("a").hover(
+        function() {
+            var title = $(this).attr("title");
+            $(this).attr("tmp_title", title);
+            $(this).attr("title","");
+        }, function() {
+            var title = $(this).attr("tmp_title");
+            $(this).attr("title", title);
+        });
 });
 
 this.addEventListener("scroll", function () {
