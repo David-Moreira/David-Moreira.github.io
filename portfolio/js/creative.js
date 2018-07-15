@@ -28,12 +28,23 @@
         }
     })
 
-    // Initialize and Configure Scroll Reveal Animation
+// Initialize and Configure Scroll Reveal Animation
+
+    //Progress bar animations upon visible
+    function progressBarAnimate ()
+    {
+            $('.skillbar').each(function(){
+                $(this).find('.skillbar-bar').animate({
+                    width:$(this).attr('data-percent')
+                },6000);
+            });
+    }
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
         duration: 600,
         scale: 0.3,
-        distance: '0px'
+        distance: '0px',
+        afterReveal: progressBarAnimate
     }, 200);
     sr.reveal('.sr-button', {
         duration: 1000,
