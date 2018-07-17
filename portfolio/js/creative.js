@@ -31,13 +31,18 @@
 // Initialize and Configure Scroll Reveal Animation
 
     //Progress bar animations upon visible
+    var progressBarAnimateRun = false;
     function progressBarAnimate ()
     {
+        if (!progressBarAnimateRun)
+        {
+            progressBarAnimateRun = true;
             $('.skillbar').each(function(){
                 $(this).find('.skillbar-bar').animate({
                     width:$(this).attr('data-percent')
                 },6000);
             });
+        }
     }
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
