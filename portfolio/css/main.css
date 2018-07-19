@@ -3,7 +3,11 @@ figure .mfp-img
     max-height: 650px !important;
 }
 
-
+.img-in-progress
+{
+    display: inline-block;
+    max-height: 16px;
+}
 
 .icon {
     display: inline-block;
