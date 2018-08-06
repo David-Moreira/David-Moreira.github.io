@@ -1111,9 +1111,13 @@ $.magnificPopup.registerModule(AJAX_NS, {
 /*>>image*/
 var _imgInterval,
 	_getTitle = function(item) {
+		//My Override to use a data attribute instead
+		if (item.el.context.dataset !== undefined && item.el.context.dataset.title !== undefined)
+		{ return item.el.context.dataset.title; }
+
 		if(item.data && item.data.title !== undefined)
 			return item.data.title;
-
+		
 		var src = mfp.st.image.titleSrc;
 
 		if(src) {

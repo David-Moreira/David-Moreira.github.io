@@ -3,16 +3,7 @@ this.addEventListener("DOMContentLoaded", function () {
     // document.getElementById("currentYear").textContent = currentDate.getFullYear();
     screenshotPreview();
 
-    //Don't show title tooltip on hover but put it back.
-    $(".popup-gallery a").hover(
-        function() {
-            var title = $(this).attr("title");
-            $(this).attr("tmp_title", title);
-            $(this).attr("title","");
-        }, function() {
-            var title = $(this).attr("tmp_title");
-            $(this).attr("title", title);
-        });
+
 });
 
 //Language Toggle
