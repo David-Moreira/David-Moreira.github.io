@@ -9,9 +9,9 @@ $(document).ready(function() {
     arrStreamers.forEach(function(value) {
       $.getJSON('https://wind-bow.gomix.me/twitch-api/streams/' + value + '?callback=?', function(data) {
         if (data.stream == null) {
-                  $(".jumbotron").append(div + "<h2><a target='_blank' href='"+ link + value +"'>"+ value + "</a></h2></br>" + "Offline"  + divClose);
+                  $(".jumbotron").append(div + "<h2><a target='_blank' href='"+ link + value +"'>"+ value + "</a></h2>" + "Offline"  + divClose);
         }
-        else {                        $(".jumbotron").append(div + "<h2><a target='_blank' href='"+ link + value +"'>"+ value + "</a></h2></br>" + data.stream.game+ "</br>"  + data.stream.viewers + " viewers </br>" + "Online since: " + data.stream.created_at.replace("T", " Time: ")  + divClose);
+        else {                        $(".jumbotron").append(div + "<h2><a target='_blank' href='"+ link + value +"'>"+ value + "</a></h2>" + data.stream.game+ "</br>"  + data.stream.viewers + " viewers </br>" + "Online since: " + data.stream.created_at.replace("T", " Time: ")  + divClose);
         }
 
         
