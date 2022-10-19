@@ -1,5 +1,5 @@
 //OpenWeatherApi call format: http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=
-var apiKey = "d2090753718eb350da283fff5bec2a02";
+var apiKey = "3b61872d361bb132318a42a270feb6f0";
 $(document).ready(function() {
   //ipinfo API gets current location over HTTP -- Geolocation from navigator only available over HTTPS protocol
   $.getJSON('https://ipinfo.io/geo', function(data) {
