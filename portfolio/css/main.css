@@ -111,6 +111,8 @@ figure .mfp-img
      background-color:#F05F40;
      border-color:#F05F40;
      margin:20px 0px 0px 0px;
+     width: 150px;
+     height: 150px;
  }
 
  header .header-content .header-content-inner p.about-me-description
